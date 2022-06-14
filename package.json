@@ -9,10 +9,12 @@
         "test": "mocha **.spec.js"
     },
     "devDependencies": {
-        "mocha": "^4.0.1",
-        "chai": "^4.1.2"
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1"
     },
     "dependencies": {
+        "@sentry/node": "^7.1.1",
+        "@sentry/tracing": "^7.1.1",
         "ms-manager": "^0.1.0"
     }
 }
